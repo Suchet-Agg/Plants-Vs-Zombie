@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="ap" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" styleClass="atebrains" stylesheets="@char_select.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_lose">
+   <children>
+      <Button fx:id="Quit" layoutX="398.0" layoutY="655.0" mnemonicParsing="false" onAction="#handle" prefHeight="131.0" prefWidth="502.0" styleClass="green" stylesheets="@m_button.css" text="Quit" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="34.0" />
+         </font></Button>
+      <AmbientLight color="CHARTREUSE" layoutX="273.0" layoutY="234.0" lightOn="true" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+.bodybg{
+ -fx-background-image: url('form1.png');
+ -fx-background-size: 100% 100%;
+}
+.labelbg{
+ -fx-background-image: url('label_back.PNG');
+ -fx-background-size: 100% 100%;
+}
+
+.atebrains{
+ -fx-background-image: url('ate_brains.jpg');
+ -fx-background-size: 100% 100%;
+}

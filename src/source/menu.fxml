@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="209.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="209.0" prefWidth="218.0" style="-fx-background-color: green;">
+         <children>
+            <AnchorPane layoutX="36.0" layoutY="48.0" prefHeight="113.0" prefWidth="127.0" styleClass="bodybg" stylesheets="@menu.css" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="218.0" prefHeight="209.0" prefWidth="381.0" stylesheets="@bgd_lawn.css">
+         <children>
+            <Button layoutX="41.0" layoutY="47.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="299.0" styleClass="record-sales" text="Move to Next Level">
+               <stylesheets>
+                  <URL value="@m_button.css" />
+                  <URL value="@bgd_lawn.css" />
+               </stylesheets></Button>
+            <Button layoutX="41.0" layoutY="112.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="299.0" styleClass="record-sales" stylesheets="@bgd_lawn.css" text="Save and Exit" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

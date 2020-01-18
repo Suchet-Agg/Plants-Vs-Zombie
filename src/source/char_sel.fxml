@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:id="gp" alignment="center" hgap="10" prefHeight="455.0" prefWidth="785.0" style="-fx-background-image: -fx-background-image: url('file:D:\Suchet\sem3\AP\Project\game\backdrops\images.jpg');" styleClass="bodybg" stylesheets="@bgd.css" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_new">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" styleClass="bodybg" stylesheets="@char_select.css">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="-4.0" layoutY="53.0" prefHeight="135.0" prefWidth="1287.0" text="CREATE A NEW CHARACTER" textAlignment="CENTER" textFill="WHITE" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Comic Sans MS" size="88.0" />
+               </font>
+            </Label>
+            <Label layoutX="295.0" layoutY="293.0" text="Enter Your Name" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS" size="39.0" />
+               </font>
+            </Label>
+            <Label layoutX="295.0" layoutY="383.0" text="Enter your alias" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS" size="39.0" />
+               </font>
+            </Label>
+            <Label layoutX="295.0" layoutY="473.0" text="Enter Date of Birth" textAlignment="JUSTIFY" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS" size="39.0" />
+               </font>
+            </Label>
+            <DatePicker fx:id="dob" layoutX="703.0" layoutY="488.0" prefHeight="25.0" prefWidth="289.0" promptText="Date of Birth" styleClass="record-sales" stylesheets="@bgd_lawn.css" />
+            <Button id="exit" layoutX="439.0" layoutY="559.0" mnemonicParsing="false" onAction="#hand1" prefHeight="83.0" prefWidth="158.0" styleClass="record-sales" stylesheets="@bgd_lawn.css" text="Exit" />
+            <Button fx:id="create" layoutX="692.0" layoutY="559.0" mnemonicParsing="false" prefHeight="83.0" prefWidth="158.0" styleClass="record-sales" stylesheets="@bgd_lawn.css" text="Create">
+               <font>
+                  <Font size="60.0" />
+               </font>
+            </Button>
+            <TextField layoutX="703.0" layoutY="397.0" prefHeight="41.0" prefWidth="289.0" promptText="Enter Alias Here..." styleClass="record-sales" stylesheets="@bgd_lawn.css" />
+            <TextField fx:id= "name" layoutX="703.0" layoutY="307.0" prefHeight="41.0" prefWidth="289.0" promptText="Enter Name Here..." styleClass="record-sales" stylesheets="@bgd_lawn.css" />
+         </children>
+      </AnchorPane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

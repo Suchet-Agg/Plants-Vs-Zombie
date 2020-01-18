@@ -1,0 +1,14 @@
+.bodybg{
+ -fx-background-image: url('new_plant.png');
+ -fx-background-size: 100% 100%;
+}
+
+.bodybg1{
+ -fx-background-image: url('new_plant2.png');
+ -fx-background-size: 100% 100%;
+}
+
+.bodybg2{
+ -fx-background-image: url('new_plant3.png');
+ -fx-background-size: 100% 100%;
+}

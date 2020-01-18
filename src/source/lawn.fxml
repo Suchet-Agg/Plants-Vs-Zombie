@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="overall" prefHeight="800.0" prefWidth="1280.0" styleClass="anchor" stylesheets="@bgd_lawn.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller_play">
+    <children>
+        <Button id="menu" fx:id="pause" layoutX="1205.0" layoutY="14.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="61.0" styleClass="menu" stylesheets="@bgd.css" textAlignment="RIGHT">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Button>
+
+      <ImageView fitHeight="525.0" fitWidth="96.0" layoutX="14.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Capture.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sunFlower" fitHeight="131.0" fitWidth="70.0" layoutX="27.0" layoutY="193.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sunflower.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wallnut" fitHeight="131.0" fitWidth="70.0" layoutX="27.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@wallnut.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="peaShooter" fitHeight="131.0" fitWidth="70.0" layoutX="25.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@peas_shooo.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cherry" fitHeight="131.0" fitWidth="70.0" layoutX="27.0" layoutY="514.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cherry.PNG" />
+         </image>
+      </ImageView>
+      <Button layoutX="36.0" layoutY="264.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="48.0" styleClass="record-sales-bar" text="50" />
+      <Button layoutX="36.0" layoutY="366.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="48.0" styleClass="record-sales-bar" text="50" />
+      <Button layoutX="40.0" layoutY="472.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="39.0" styleClass="record-sales-bar" text="100" />
+      <Button layoutX="40.0" layoutY="581.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="39.0" styleClass="record-sales-bar" text="150" />
+      <ImageView fitHeight="80.0" fitWidth="90.0" layoutX="18.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cover.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="score" layoutX="36.0" layoutY="91.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="48.0" styleClass="record-sales-bar" text="0" />
+      <ImageView fitHeight="46.0" fitWidth="62.0" layoutX="31.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Capture1.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="11.0" fitWidth="86.0" layoutX="263.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@prog.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="163.0" layoutX="228.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" />
+
+      <Button fx:id="l" layoutX="27.0" layoutY="155.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="70.0" styleClass="record-sales" stylesheets="@bgd_lawn.css" text="PLANTS" />
+      <GridPane fx:id="gridPane" layoutX="234.0" layoutY="93.0" prefHeight="675.0" prefWidth="683.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="81.0" minWidth="10.0" prefWidth="75.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="88.0" minWidth="10.0" prefWidth="73.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="98.0" minWidth="10.0" prefWidth="77.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="96.0" minWidth="10.0" prefWidth="77.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="99.0" minWidth="10.0" prefWidth="83.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="83.0" minWidth="10.0" prefWidth="71.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="89.0" minWidth="10.0" prefWidth="77.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="91.0" minWidth="10.0" prefWidth="78.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="102.0" minWidth="10.0" prefWidth="86.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="228.0" minHeight="10.0" prefHeight="137.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="389.0" minHeight="0.0" prefHeight="137.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="389.0" minHeight="10.0" prefHeight="133.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="389.0" minHeight="10.0" prefHeight="123.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="165.0" minHeight="150.0" prefHeight="150.0" />
+        </rowConstraints>
+         <children>
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="3" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="4" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="5" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="6" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="7" />
+            <StackPane prefHeight="121.0" prefWidth="33.0" GridPane.columnIndex="8" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="1" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <StackPane prefHeight="132.0" prefWidth="97.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="2" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="3" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.rowIndex="4" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+            <StackPane prefHeight="150.0" prefWidth="200.0" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+         </children>
+      </GridPane>
+      <ImageView fitHeight="53.0" fitWidth="70.0" layoutX="1142.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@shovel.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="shovel" layoutX="1142.0" layoutY="18.0" mnemonicParsing="false" onAction="#hand2" opacity="0.0" prefHeight="46.0" prefWidth="52.0" text="Button" />
+      <Button fx:id="level" layoutX="1015.0" layoutY="15.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="113.0" styleClass="record-sales-bar" text="Level 1" />
+      <ProgressBar fx:id="progress" layoutX="210.0" layoutY="28.0" prefHeight="23.0" prefWidth="200.0" progress="0.0" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane fx:id="gp" alignment="center" hgap="10" prefHeight="455.0" prefWidth="785.0" style="-fx-background-image:-fx-background-image:url('file:D:\Suchet\sem3\AP\Project\game\backdrops\images.jpg')" styleClass="bodybg" stylesheets="@bgd.css" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0">
+         <children>
+            <AnchorPane layoutX="549.0" layoutY="262.0" prefHeight="538.0" prefWidth="731.0" styleClass="bodybg" stylesheets="@top_l.css">
+               <children>
+                  <Button id="play" layoutX="334.0" layoutY="38.0" mnemonicParsing="false" onAction="#Handle1" prefHeight="72.0" prefWidth="318.0" styleClass="green" stylesheets="@menu_button.css" text="Start Adventure" textFill="#575757" />
+                  <Button id="load" layoutX="353.0" layoutY="124.0" mnemonicParsing="false" onAction="#Handle2" prefHeight="65.0" prefWidth="272.0" styleClass="green" stylesheets="@menu_button.css" text="Continue Your Quest" />
+                  <Button id="level" layoutX="357.0" layoutY="207.0" mnemonicParsing="false" onAction="#Handle3" prefHeight="65.0" prefWidth="251.0" styleClass="green" stylesheets="@menu_button.css" text="Choose Level" />
+                  <Button id="exit" layoutX="375.0" layoutY="286.0" mnemonicParsing="false" onAction="#Handle4" prefHeight="57.0" prefWidth="194.0" styleClass="green" stylesheets="@menu_button.css" text="Exit" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
