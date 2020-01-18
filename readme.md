@@ -4,10 +4,9 @@ Implemented a complete and functioning game inspired by Plants vs Zombies in jav
 
 ![Pics](https://raw.githubusercontent.com/asmitks/images/master/pvz.png)
 
-(
 ## Getting Started
 
-The Project is completely functional IntelliJ Source Project
+This project is not a standalone executable and thus requires the latest JDK and JavafX to be installed on system before you run the game, Thus use a IDE for doing the same. (Preferably IntelliJ - in which it was originally designed and developed)
 
 ### Design
 
@@ -41,7 +40,6 @@ file.
 
 * Java 
 * JavaFX 
-* MultiThreading 
 
 ## Version Info
 
@@ -51,13 +49,3 @@ Version : 1.0.1
 
 * **Suchet Aggarwal** - *IIIT-Delhi* - [Other Work](https://github.com/Suchet-Agg)
 * **Asmit Kumar Singh** - *IIIT-Delhi* - [Other Work](https://github.com/asmitks)
-
-
-## Acknowledgments
-
-* [BootStrap](www.bootStrap.com)
-* {PyhtonSpot](https://pythonspot.com/flask-web-app-with-python/)
-* [MongoDB](http://api.mongodb.com/python/3.6.0/tutorial.html#counting )
-* [Carleton](http://www.cs.carleton.edu/cs_comps/0607/recommend/recommender/itembased.html )
-* [JsFiddle](http://jsfiddle.net/ashuslove/zLm4f/6/)
-
