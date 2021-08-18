@@ -2,7 +2,7 @@
 
 Implemented a complete and functioning game inspired by Plants vs Zombies in java, comprising of 5 Levels. The game was developed using JavaFX and employs multithreading, and a handful of design patterns.
 
-![Pics](https://raw.githubusercontent.com/asmitks/images/master/pvz.png)
+![Pics](./src/pvz.png)
 
 ## Getting Started
 
